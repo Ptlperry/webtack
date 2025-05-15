@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #1c1c1c !important;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.croma-header {
+  background-color: #000;
+  color: white;
+  padding: 22px 35px;
+}
+.logo{
+  width: 48%;
+
+}
+.search-bar input {
+  border-radius: 5px;
+  padding-left: 10px;
+  padding: 10px;
+  
+}
+
+.icon-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  position: relative;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #00e0d0;
+  color: black;
+  border-radius: 50%;
+  font-size: 12px;
+  padding: 2px 6px;
+}
+
+
+.bi-search{
+    position: absolute;
+    right: 20px;
+}
+
+form{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.slider-item img{
+    height: 100px !important;
+    
+}
+
+#mini-slider{
+    scrollbar-width: none;
+}
+
+
+.offer-slider {
+    display: flex;
+    overflow: hidden; /* Hide overflowing content */
+    position: relative;
+    animation: slide 15s linear infinite;
+}
+
+#bank-slider{
+    scrollbar-width: none;
+}
+
+.bank-name {
+    font-weight: bold;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%); /* Start from right */
+     }
+    10% {
+        transform: translateX(0); /* Move to position */
+    }
+    90% {
+         transform: translateX(10); /*Remain in position */
+       transform: translateX(-100%); /* Move completely to left */
+     }
+}
+
+.img-deal{
+    height: 400px;
+    width: 300px;   
+    border-radius: 10px; 
+}
+
+#summer-deal{
+    scrollbar-width: none;
+}
+
+.icon-card {
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+.icon-card img {
+    width: 100px;
+    height: 100px;
+}
+.section-title {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #12daa8;
+    
+}
+
+
+.dropdown-item{
+    color: white !important;
+}
+
+#slider-2{
+    scrollbar-width: none;
+}
+
+.hot-deals img{
+  border-radius: 10px;
+
+}
+.card-width img{
+  width: 250px;
+  height: 350px;
+}
