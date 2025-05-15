@@ -1,1 +1,1 @@
-view: https://iridescent-platypus-be1af6.netlify.app/
+view:  https://visionary-croquembouche-e64ff8.netlify.app/
